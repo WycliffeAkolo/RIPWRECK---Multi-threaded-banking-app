@@ -6,4 +6,4 @@ A small banking Java application used to show multi threading and concurrency is
 3. Accountsync.java - an implementation using synchronized methods
 
 ## How to use
-In the main class, change the class of the shared_account and
+In the main class, change the class of the `shared_account` and `recipient_account` objects to one of the 3 classes above then use the script to see if it catches a race condition. (After running for 3 minutes, assume no race condition is in the implementation)
